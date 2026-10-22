@@ -1,8 +1,6 @@
-/**
-* U2 ARLSDCVerA: Biblioteca de libros
-* @date 22 de octubre del 2026
-* @name Camarillo Solano Ángel Nahúm
-*/
+//Noemi Mata Ruiz
+//Jueves 22 Octubre 2026
+//Listas Simples, Dobles y Circulares
 
 package src;
 
