@@ -4,8 +4,11 @@
  
 ## Datos de la actividad 
 Estructura de datos
+
 Gabriel Barron Rodriguez 
+
 Jueves 22 de Octubre 2026
+
 versión asignada A. 
  
 ## Conceptos aprendidos 
