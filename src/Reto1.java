@@ -3,7 +3,7 @@ package src;
 
 public class Reto1 {
 
-    // Clase Nodo interna para que todo viva dentro de Reto1.java
+    // Clase Nodo interna para que pueda compilar Reto1.java
     static class Nodo {
         String libro;
         Nodo siguiente;

@@ -83,18 +83,30 @@ public class Reto3 {
         ListaCircular lista = new ListaCircular();
 
         // Agregamos estudiantes de prueba
+<<<<<<< HEAD
         lista.insertar("Ana");
         lista.insertar("Carlos");
         lista.insertar("Sofía");
         lista.insertar("Mateo");
+=======
+        lista.insertar("Luis");
+        lista.insertar("Teodora");
+        lista.insertar("Sofía");
+        lista.insertar("Kirk");
+>>>>>>> a08e349eb638a1875a68cb14b034d90381fc27b6
 
         System.out.println("- LISTA CIRCULAR DE ESTUDIANTES -");
         lista.mostrarUnaVuelta();
 
         System.out.println("\nTotal de estudiantes en el círculo: " + lista.contar());
 
+<<<<<<< HEAD
         System.out.println("\nEliminando al estudiante que sigue de 'Ana' (debería ser Carlos)...");
         lista.eliminarSiguienteDe("Ana");
+=======
+        System.out.println("\nEliminando al estudiante que sigue de 'Luis' (debería ser Teodora)...");
+        lista.eliminarSiguienteDe("Luis");
+>>>>>>> a08e349eb638a1875a68cb14b034d90381fc27b6
         lista.mostrarUnaVuelta();
 
         System.out.println("Total de estudiantes actual: " + lista.contar());
