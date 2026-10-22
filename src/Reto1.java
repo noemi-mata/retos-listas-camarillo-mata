@@ -89,7 +89,7 @@ public class Reto1 {
         lista.insertarFinal("Don Quijote de la Mancha");
         lista.insertarFinal("1984");
 
-        System.out.println("- CATÁLOGO INICIAL DE LIBROS UwU -");
+        System.out.println("--- CATÁLOGO INICIAL DE LIBROS ---");
         lista.mostrar();
 
         // Pruebas de búsqueda (existente e inexistente)
@@ -109,7 +109,7 @@ public class Reto1 {
         lista.eliminar("1984");
         lista.mostrar();
 
-        System.out.println("\n- CATÁLOGO FINAL -");
+        System.out.println("\n--- CATÁLOGO FINAL ---");
         lista.mostrar();
     }
 }
