@@ -1,9 +1,15 @@
+/**
+* U2 ARLSDCVerA: Biblioteca de libros
+* @date 22 de octubre del 2026
+* @name Camarillo Solano Ángel Nahúm
+*/
+
 package src;
 
 
 public class Reto1 {
 
-    // Clase Nodo interna para que todo viva dentro de Reto1.java
+    // Clase Nodo interna para que pueda compilar y correr Reto1.java
     static class Nodo {
         String libro;
         Nodo siguiente;
