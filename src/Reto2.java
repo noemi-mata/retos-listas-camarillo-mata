@@ -26,14 +26,14 @@ public class Reto2 {
         public void insertarInicio(String libro) {
             NodoDoble nuevo = new NodoDoble(libro);
             if (cabeza == null) {
-                // TODO 1: Si la lista está vacía, cabeza y cola apuntan al nuevo nodo[cite: 4]
+                // TODO 1: Si la lista está vacía, cabeza y cola apuntan al nuevo nodo
                 cabeza = cola = nuevo;
             } else {
-                // TODO 2: Enlazar nuevo.siguiente con la cabeza actual[cite: 4]
+                // TODO 2: Enlazar nuevo.siguiente con la cabeza actual
                 nuevo.siguiente = cabeza;
-                // TODO 3: Enlazar cabeza.anterior con el nuevo[cite: 4]
+                // TODO 3: Enlazar cabeza.anterior con el nuevo
                 cabeza.anterior = nuevo;
-                // TODO 4: Actualizar la cabeza para que sea el nuevo nodo[cite: 4]
+                // TODO 4: Actualizar la cabeza
                 cabeza = nuevo;
             }
         }
@@ -47,14 +47,14 @@ public class Reto2 {
             
             if (actual == null) return false;
 
-            // TODO 5: Si 'actual' tiene anterior, su siguiente salta al de actual. Si no, actualizamos la cabeza[cite: 5]
+            // TODO 5: Si 'actual' tiene anterior, su siguiente salta al de actual. Si no, actualizamos la cabeza
             if (actual.anterior != null) {
                 actual.anterior.siguiente = actual.siguiente;
             } else {
                 cabeza = actual.siguiente;
             }
 
-            // TODO 6: Si 'actual' tiene siguiente, su anterior salta al anterior de actual. Si no, actualizamos la cola[cite: 5]
+            // TODO 6: Si 'actual' tiene siguiente, su anterior salta al anterior de actual. Si no, actualizamos la cola
             if (actual.siguiente != null) {
                 actual.siguiente.anterior = actual.anterior;
             } else {
@@ -78,7 +78,7 @@ public class Reto2 {
         public void mostrarInverso() {
             NodoDoble actual = cola;
             while (actual != null) {
-                // TODO 7: Imprima el libro y retroceda usando .anterior[cite: 5]
+                // TODO 7: Imprima el libro y retroceda usando .anterior
                 System.out.print(actual.libro + " -> ");
                 actual = actual.anterior;
             }
