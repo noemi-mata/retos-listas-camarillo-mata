@@ -1,3 +1,9 @@
+/**
+* U2 ARLSDCVerA: Biblioteca de libros
+* @date 22 de octubre del 2026
+* @name Camarillo Solano Ángel Nahúm
+*/
+
 package src;
 
 public class Reto3 {
