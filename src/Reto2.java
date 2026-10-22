@@ -1,3 +1,7 @@
+//Noemi Mata Ruiz
+//Jueves 22 Octubre 2026
+//Listas Simples, Dobles y Circulares
+
 package src;
 
 public class Reto2 {
