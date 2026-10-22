@@ -68,7 +68,14 @@ Pruebas en main: se agregaron al menos 4 libros propios, se buscó uno existente
 Capturas:
 
 
+Ejecucion:
+
+
 <img width="598" height="241" alt="reto1-ejecucion" src="https://github.com/user-attachments/assets/6c5e6fb4-f02f-427c-b0bb-10fd02e6ab95" />
+
+Compilacion:
+
+
 <img width="470" height="44" alt="reto1-compilacion" src="https://github.com/user-attachments/assets/49789892-18e3-4c6d-b5b3-962708f18a2a" />
 
  
@@ -100,7 +107,15 @@ Pruebas en main: se insertaron libros propios al inicio, se mostró la lista en 
 Capturas:
 
 
+Ejecucion:
+
+
 <img width="652" height="252" alt="reto2-ejecucion" src="https://github.com/user-attachments/assets/9736316e-e2d8-45e0-b59b-9136826482b5" />
+
+
+Compilacion:
+
+
 <img width="521" height="46" alt="reto2-compilacion" src="https://github.com/user-attachments/assets/ea10bc09-bc01-4b84-8a8b-c6bf39f20a4a" />
  
 ## Reto 3 
@@ -137,7 +152,15 @@ Pruebas en main: se agregaron estudiantes propios, se mostró una vuelta, se con
 Capturas:
 
 
+Ejecucion:
+
+
 <img width="519" height="118" alt="reto3-ejecucion" src="https://github.com/user-attachments/assets/93aa18aa-a010-4911-9dfe-38f52c7cb746" />
+
+
+compilacion:
+
+
 <img width="462" height="45" alt="reto3-complacion" src="https://github.com/user-attachments/assets/f1ffd957-599c-4585-8641-20d71a144360" />
 
 
